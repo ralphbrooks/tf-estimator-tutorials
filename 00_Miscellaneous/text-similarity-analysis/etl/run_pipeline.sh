@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Configurable Parameters
-PROJECT="rab=bigquery"
+PROJECT="rab-bigquery"
 BUCKET="gs://rab-bigquery-bucket"
 REGION="us-central1"
 ZONE="us-central1-c"
