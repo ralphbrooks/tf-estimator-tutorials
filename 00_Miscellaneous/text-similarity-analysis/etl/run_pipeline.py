@@ -76,7 +76,10 @@ def add_debug_options(parser):
   debug_group.add_argument('--debug_output_prefix',
                            dest='debug_output_prefix', default='debug-output',
                            help='Specify prefix of debug output.')
+
+import pdb
 def main(argv=None):
+  pdb.set_trace()
   parser = argparse.ArgumentParser()
   add_input_options(parser)
   add_transform_options(parser)
